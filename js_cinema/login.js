@@ -11,7 +11,7 @@ window.addEventListener("load", function(){
 
         console.log("hola");
 
-            window.open("html/registrarse.html", "Registrarme", "width=550,height=400,resizable=NO,scrollbars=NO")
+            window.open("registrarse.html", "Registrarme", "width=550,height=400,resizable=NO,scrollbars=NO")
             window.close();
     });
 
