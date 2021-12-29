@@ -25,8 +25,8 @@ window.addEventListener("load", function(){
         var formlogin_ = document.querySelector("#formlogin");
 
         formlogin_.addEventListener(`submit`, function(){
-
                 window.open("html/login.html", "Login", "width=500,height=400,resizable=NO,scrollbars=NO");
+
                 
         });
 
