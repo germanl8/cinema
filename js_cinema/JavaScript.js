@@ -25,8 +25,8 @@ window.addEventListener("load", function(){
         var formlogin_ = document.querySelector("#formlogin");
 
         formlogin_.addEventListener(`submit`, function(){
-
                 window.open("html/login.html", "Login", "width=500,height=400,resizable=NO,scrollbars=NO");
+
                 
         });
 
@@ -116,6 +116,7 @@ window.addEventListener("load", function(){
         
         sel_btn_snacks.click(function(){
             let that = $(this);
+           
             
             if (!that.hasClass("sel_btn")){
                 that.addClass("sel_btn");
@@ -125,24 +126,30 @@ window.addEventListener("load", function(){
                 frm_snacks.show();
                 btn_snacks.show();
                 
-
+                
             }
+            
+            $("#input_comprar").css("top", "280px");
         });
 
 
         sel_btn_ticket.click(function(){
             let that = $(this);
             
+            
+            
             if (!that.hasClass("sel_btn")){
+
                 that.addClass("sel_btn");
                 sel_btn_snacks.removeClass("sel_btn");
-                
+             
                 frm_snacks.hide();
                 frm_peliculas.show();
                 
-
                 
             } 
+
+            $("#input_comprar").css("top", "480px");
 
         
     
